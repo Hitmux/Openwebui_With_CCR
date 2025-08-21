@@ -93,3 +93,17 @@ The Python proxy script provided in this repository is an application-layer gate
 * **If it does, this indicates that the currently extracted message block is the problematic metadata block. The proxy **directly discards** the message block and does not forward it to the client.
 * **If it does not, this indicates that the message block is normal and should be displayed to the client (e.g., Claude's greeting). The proxy immediately forwards it to the client.
 * Continuous processing: The proxy loops, processing the accumulated data in the buffer, until no complete message blocks are left to extract or no new data arrives.
+* 
+
+
+Copyright (C) 2025 Hitmux
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+ This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU Affero General Public License for more details.
+You should have received a copy of the GNU Affero General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
